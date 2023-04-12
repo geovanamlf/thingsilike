@@ -33,7 +33,7 @@ main {
 
 #logo {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -116,12 +116,4 @@ button {
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-
-@media screen and (min-width: 300px) and (max-width: 543px) {
-    button {
-        margin: auto;
-        width: 90px;
-    }
-}
-
 

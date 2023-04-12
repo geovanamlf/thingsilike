@@ -1,0 +1,33 @@
+@charset "UFT-8";
+
+@media (max-width: 530px) {
+    main {
+        width: 100vw;
+        height: 100vh;
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 498px) and (max-height: 700px) {
+    
+    body {
+       background-color: #686765;
+       overflow-x: hidden;
+    }
+
+    .sobre h2, h3, p{
+        width: fit-content;
+        padding: 0px 10px 0px 10px;
+        margin: auto;
+    }
+
+    .sobre p {
+        margin-bottom: 20px;
+    }
+
+    button {
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
